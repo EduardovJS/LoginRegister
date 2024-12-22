@@ -10,7 +10,6 @@ namespace LoginRegister.ViewModels
         [Display(Name= "Nome")]
         public string Name { get; set; }
 
-
         [Required(ErrorMessage = "Informe o seu email de login")]
         [Display(Name= "E-mail")]
         [DataType(DataType.EmailAddress)]
@@ -22,7 +21,7 @@ namespace LoginRegister.ViewModels
         public string Password { get; set; }
 
 
-
+        public bool RememberMe { get; set; }
         public string ReturnUrl { get; set; }
 
 

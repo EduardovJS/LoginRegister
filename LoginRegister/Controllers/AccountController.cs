@@ -31,7 +31,7 @@ namespace LoginRegister.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Name, model.Password, false,false);
+                var result = await _signInManager.PasswordSignInAsync(model.Name, model.Password, model.RememberMe,false);
 
                 if (result.Succeeded)
                 {
