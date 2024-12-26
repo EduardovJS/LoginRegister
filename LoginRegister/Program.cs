@@ -1,6 +1,8 @@
 using LoginRegister.Context;
+using LoginRegister.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 
-
-
 // Configurando o Identity.
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+builder.Services.AddIdentity<Users, IdentityRole>()
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
 

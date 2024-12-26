@@ -9,42 +9,79 @@ namespace LoginRegister.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AccountController(UserManager<IdentityUser> userManager,
+            SignInManager<IdentityUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
         }
 
-
-        [HttpGet]
-        public IActionResult Login(string returnUtl = null)
+        public IActionResult Login(string returnUrl)
         {
             return View(new AccountViewModel()
             {
-                ReturnUrl = returnUtl
+                ReturnUrl = returnUrl
             });
         }
 
         [HttpPost]
+        public async Task<IActionResult> Login(AccountViewModel loginVM)
+        {
+            if (!ModelState.IsValid)
+                return View(loginVM);
+
+            var user = await _userManager.FindByNameAsync(loginVM.UserName);
+
+            if (user != null)
+            {
+                var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password, false, false);
+                if (result.Succeeded)
+                {
+                    if (string.IsNullOrEmpty(loginVM.ReturnUrl))
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                    return Redirect(loginVM.ReturnUrl);
+                }
+            }
+            ModelState.AddModelError("", "Falha ao realizar o login!!");
+            return View(loginVM);
+        }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(AccountViewModel model, string returnUrl = null)
+        public async Task<IActionResult> Register(AccountViewModel registroVM)
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Name, model.Password, model.RememberMe,false);
+                var user = new IdentityUser { UserName = registroVM.UserName };
+                var result = await _userManager.CreateAsync(user, registroVM.Password);
 
                 if (result.Succeeded)
                 {
-                    // Se houver um returnUrl, redireciona o usuário para essa URL
-                    return Redirect(returnUrl);
+                    //await _signInManager.SignInAsync(user, isPersistent: false);
+                    return RedirectToAction("Login", "Account");
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Falha no login.");
-                    return View(model);
+                    this.ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
                 }
             }
-            return View(model);
+            return View(registroVM);
         }
+
+
+
+
+
+
+
+
+
     }
 }
