@@ -3,27 +3,52 @@
   "WorkspaceRootPath": "D:\\LoginRegister\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eduardo\\AppData\\Local\\Temp\\400a58af-832d-4fb7-a4df-22f9ea15bacd_4_login2 (1).zip.4_login2 (1).zip\\LanchesMac\\LanchesMac\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,27 +70,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Program.cs",
-              "RelativeDocumentMoniker": "LoginRegister\\Program.cs",
-              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Program.cs",
-              "RelativeToolTip": "LoginRegister\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:03:15.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "LoginRegister\\Views\\Account\\Register.cshtml",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "LoginRegister\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T09:02:12.22Z"
+              "WhenOpened": "2024-12-26T01:48:22.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,49 +89,140 @@
               "RelativeDocumentMoniker": "LoginRegister\\Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "LoginRegister\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T09:01:11.236Z"
+              "WhenOpened": "2024-12-26T01:48:11.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "LoginRegister\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
               "RelativeToolTip": "LoginRegister\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAgwEAAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:00:13.595Z",
+              "WhenOpened": "2024-12-26T01:47:19.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\AppData\\Local\\Temp\\400a58af-832d-4fb7-a4df-22f9ea15bacd_4_login2 (1).zip.4_login2 (1).zip\\LanchesMac\\LanchesMac\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Eduardo\\AppData\\Local\\Temp\\400a58af-832d-4fb7-a4df-22f9ea15bacd_4_login2 (1).zip.4_login2 (1).zip\\LanchesMac\\LanchesMac\\Controllers\\AccountController.cs [Somente Leitura]",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:00:10.499Z",
-              "EditorCaption": " [Somente Leitura]"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T01:46:48.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AccountViewModel.cs",
-              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\ViewModels\\AccountViewModel.cs",
-              "RelativeDocumentMoniker": "LoginRegister\\ViewModels\\AccountViewModel.cs",
-              "ToolTip": "D:\\LoginRegister\\LoginRegister\\ViewModels\\AccountViewModel.cs",
-              "RelativeToolTip": "LoginRegister\\ViewModels\\AccountViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T08:59:47.948Z"
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T01:39:00.209Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "LoginRegister\\ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T01:31:02.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VerifyEmailViewModel.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\ViewModels\\VerifyEmailViewModel.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\ViewModels\\VerifyEmailViewModel.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\ViewModels\\VerifyEmailViewModel.cs",
+              "RelativeToolTip": "LoginRegister\\ViewModels\\VerifyEmailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T01:28:08.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "LoginRegister\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T01:23:04.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "LoginRegister\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T01:22:45.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Program.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Program.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Program.cs",
+              "RelativeToolTip": "LoginRegister\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T01:15:51.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "LoginRegister\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T01:00:27.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Models\\Users.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Models\\Users.cs",
+              "RelativeToolTip": "LoginRegister\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:58:49.57Z",
+              "EditorCaption": ""
             }
           ]
         }
