@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\LoginRegister\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoginRegister\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T00:23:47.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "LoginRegister\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T00:23:12.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "LoginRegister\\Views\\Account\\ChangePassword.cshtml",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\ChangePassword.cshtml",
               "RelativeToolTip": "LoginRegister\\Views\\Account\\ChangePassword.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-30T00:19:58.383Z",
               "EditorCaption": ""
@@ -68,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "LoginRegister\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
               "RelativeToolTip": "LoginRegister\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIAAAAAzAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAqwJ4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T00:02:23.484Z",
               "EditorCaption": ""
