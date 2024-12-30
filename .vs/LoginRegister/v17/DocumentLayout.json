@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|d:\\loginregister\\loginregister\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{826A088A-CC97-4313-B790-521E69637A86}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +38,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "LoginRegister\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T00:19:58.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerifyEmail.cshtml",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\VerifyEmail.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Views\\Account\\VerifyEmail.cshtml",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Views\\Account\\VerifyEmail.cshtml",
+              "RelativeToolTip": "LoginRegister\\Views\\Account\\VerifyEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T00:17:27.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "LoginRegister\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
               "RelativeToolTip": "LoginRegister\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAqAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T23:36:45.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "LoginRegister\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\LoginRegister\\LoginRegister\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "LoginRegister\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T23:36:37.198Z",
+              "WhenOpened": "2024-12-30T00:02:23.484Z",
               "EditorCaption": ""
             }
           ]

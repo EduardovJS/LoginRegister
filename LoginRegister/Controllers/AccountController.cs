@@ -2,6 +2,8 @@
 using LoginRegister.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LoginRegister.Controllers
 {
@@ -21,7 +23,7 @@ namespace LoginRegister.Controllers
         {
             return View();
         }
-       [HttpPost]
+        [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
@@ -33,15 +35,12 @@ namespace LoginRegister.Controllers
                     return RedirectToAction("Index", "Home");
                 }
                 else
-                { 
+                {
                     return View(model);
                 }
             }
             return View(model);
         }
-
-
-
         [HttpGet]
         public IActionResult Register()
         {
@@ -79,15 +78,80 @@ namespace LoginRegister.Controllers
             return View(model);
         }
 
+        [HttpGet]
         public IActionResult VerifyEmail()
         {
             return View();
         }
-        public IActionResult ChangePassword()
+        [HttpPost]
+        public async Task<IActionResult> VerifyEmail(VerifyEmailViewModel model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByNameAsync(model.Email);
+
+                if (user == null)
+                {
+                    ModelState.AddModelError("", "Something is wrong!");
+                    return View(model);
+                }
+                else
+                {
+                    return RedirectToAction("ChangePassword", "Account", new { username = user.UserName });
+                }
+            }
+            return View(model);
         }
 
+
+        [HttpGet]
+        public IActionResult ChangePassword(string username)
+        {
+            if (string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("VerifyEmail", "Account");
+            }
+            return View(new ChangePasswordViewModel { Email = username });
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByNameAsync(model.Email);
+                if (user != null)
+                {
+                    var result = await _userManager.RemovePasswordAsync(user);
+                    if (result.Succeeded)
+                    {
+                        result = await _userManager.AddPasswordAsync(user, model.NewPassword);
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+
+                        foreach (var error in result.Errors)
+                        {
+                            ModelState.AddModelError("", error.Description);
+                        }
+
+                        return View(model);
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Email not found!");
+                    return View(model);
+                }
+            }
+            else
+            {
+                ModelState.AddModelError("", "Something went wrong. try again.");
+                return View(model);
+            }
+        }
 
 
 
