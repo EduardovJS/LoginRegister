@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LoginRegister.Areas.Admin.Controllers
 {
@@ -6,6 +7,7 @@ namespace LoginRegister.Areas.Admin.Controllers
     {
 
         [Area("Admin")]
+        [Authorize("Admin")]
         public IActionResult Index()
         {
             return View();
