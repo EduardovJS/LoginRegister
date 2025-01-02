@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LoginRegister\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LoginRegister\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T02:25:32.27Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -51,15 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "LoginRegister\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "LoginRegister\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDAAAAASAAAA",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoginRegister\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T02:11:16.438Z",
+              "WhenOpened": "2025-01-02T02:46:48.989Z",
               "EditorCaption": ""
             },
             {
@@ -70,9 +57,22 @@
               "RelativeDocumentMoniker": "LoginRegister\\Program.cs",
               "ToolTip": "D:\\LoginRegister\\LoginRegister\\Program.cs",
               "RelativeToolTip": "LoginRegister\\Program.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowFoAAAAxAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T21:52:21.179Z",
+              "WhenOpened": "2025-01-02T02:46:01.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\LoginRegister\\LoginRegister\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LoginRegister\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T02:36:49.944Z",
               "EditorCaption": ""
             }
           ]

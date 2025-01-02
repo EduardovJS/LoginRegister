@@ -6,6 +6,7 @@ using System.Diagnostics;
 namespace LoginRegister.Controllers
 {
     [Authorize(Roles ="Admin")]
+    [Authorize(Roles = "Member")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

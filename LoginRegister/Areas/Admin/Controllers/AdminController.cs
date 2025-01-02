@@ -7,7 +7,7 @@ namespace LoginRegister.Areas.Admin.Controllers
     {
 
         [Area("Admin")]
-        [Authorize("Admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             return View();

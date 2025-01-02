@@ -59,6 +59,7 @@ namespace LoginRegister.Controllers
 
                 };
                 var result = await _userManager.CreateAsync(user, model.Password);
+                await _userManager.AddToRoleAsync(user, "Member");
 
 
                 if (result.Succeeded)
@@ -159,7 +160,10 @@ namespace LoginRegister.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-
-
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
+
 }
