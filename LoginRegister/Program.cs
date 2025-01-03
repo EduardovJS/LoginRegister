@@ -31,6 +31,9 @@ builder.Services.AddIdentity<Users, IdentityRole>(options =>
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.Configure<ConfigurationImagens>(builder.Configuration.GetSection("ConfigurationImagens"));
+
+
 
 var app = builder.Build();
 
